@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-nav{
+    background-color: pink;
+    height: 50px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 25, 64);
+    padding: 10px;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.menu ul li{
+    position: relative;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.menu ul li:nth-child(1) a:hover{
+    transform: translateY(-10px);
+    background-color: white;
+    color: black;
+}
+.menu ul li:nth-child(2) a:hover{
+    color: rgb(7, 105, 109);
+    background-color: white;
+}
+.menu ul li:nth-child(3) a:hover{
+    transform: scale(1.2);
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+.menu ul li:nth-child(4) a:hover{
+    transform: scale(1.2);
+    color: green;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    gap: 10px;
+}
+.item1 img{
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+.item1 img:hover{
+    transform: scale(1.5);
+}
+.item1{
+    display: flex;
+    background-color: rgb(255, 0, 234);
+    width: 100%;
+    height: 40px;
+}
+.item2{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: rgb(255, 25, 64);
+    width: 100%;
+    height: 100%;
+}
+.item21{
+    background-color: rgb(16, 172, 233);
+    width: 100%;
+    height: 100%;
+}
+.slider-container{
+    display: grid;
+    background-color: rgb(47, 202, 151);
+    height: 50px;
+}
+
+.tarjeta3{
+    position: relative;
+    width: 100%;
+    max-height: 800px;
+    max-width: 100%;
+}
+.tarjeta3 img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.contenido3{
+    font-family: fantasy;
+    font-size: 50px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(230, 21, 230);
+    padding: 20px;
+}
+.slogan:hover{
+    font-size: 50px;
+    color: rgb(19, 104, 201);
+}
+.item34{
+    background-color: aquamarine;
+    height: 200px;
+    flex: 1;
+}
+.item44{
+    background-color: aquamarine;
+    height: 200px;
+    flex: 1;
+}
+.item54{
+    background-color: aquamarine;
+    height: 200px;
+    flex: 1;
+}
+.item64{
+    background-color: aquamarine;
+    height: 200px;
+    flex: 1;
+}
+.item6{
+    background-color: cadetblue;
+    width: 50%;
+    height: 400px;
+}
+.item62{
+    background-color: burlywood;
+    width: 50%;
+    height: 400px;
+}
+.item7{
+    background-color: rgb(148, 160, 95);
+    height: 50px;
+}
+.item8{
+    background-color: rgb(95, 160, 122);
+    height: 163px;
+}
+.item9{
+    background-color: rgb(118, 95, 160);
+    height: 195px;
+}
